@@ -94,6 +94,16 @@
           </a>
         </li>
 
+        <!-- <li class="nav-item p-0">
+           <a
+            class="nav-link btn btn-default d-none d-lg-block"
+            href="javascript:void(0)"
+            (click)="scrollToDownload(target)"
+          >
+            <i class="tim-icons icon-cloud-download-93"> </i> View Resume
+          </a>
+        </li> -->
+
       </ul>
     </div>
   </div>
@@ -102,8 +112,6 @@
 <div class="wrapper">
  
   <div class="main">
-
-    
 
     <div class="section section-tabs">
       <div class="container">
@@ -171,7 +179,7 @@
       </div>
     </div>
 
-    <div class="section section-tabs">
+    <div class="section section-notifications">
       <div class="container">
         <div class="row">
           <div class="col-md-10 ml-auto col-xl-12 mr-auto">
@@ -259,6 +267,34 @@
       </div>
     </div>
 
+    <div class="section section-tabs">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 ml-auto col-xl-12 mr-auto">
+            <div class="card">
+              <div class="card-header">
+                <h3>My professional Journey so far</h3>
+                  <mat-accordion>
+                    <mat-expansion-panel hideToggle>
+                      <mat-expansion-panel-header>
+                        <mat-panel-title>
+                          This is the expansion title
+                        </mat-panel-title>
+                        <mat-panel-description>
+                          This is a summary of the content
+                        </mat-panel-description>
+                      </mat-expansion-panel-header>
+                      <p>This is the primary content of the panel.</p>
+                    </mat-expansion-panel>
+                  </mat-accordion>
+                 <br/>
+                 <br/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="section section-basic" id="basic-elements">
       <img class="path" src="assets/img/path1.png" />
@@ -1853,7 +1889,7 @@
   <footer class="footer">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-8">
           <div class="btn-wrapper profile">
 
             <a
@@ -1884,6 +1920,13 @@
           </div>
         </div>
 
+        <div class="col-md-4">
+          <div class="btn-wrapper">
+              <a class="btn btn-danger" [routerLink]="['/contact']">
+                Contact Us
+              </a>
+            </div>
+        </div>
       </div>
     </div>
   </footer>

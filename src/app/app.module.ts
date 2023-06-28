@@ -24,6 +24,7 @@ import { ProfilepageComponent } from "./pages/examples/profilepage/profilepage.c
 import { RegisterpageComponent } from "./pages/examples/registerpage/registerpage.component";
 import { LandingpageComponent } from "./pages/examples/landingpage/landingpage.component";
 import { WorkfolioComponent } from "./pages/workfolio/workfolio.component";
+import { ContactUsComponent } from "./pages/examples/contact-us/contact-us.component";
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { WorkfolioComponent } from "./pages/workfolio/workfolio.component";
     // ProfilepageComponent,
     // RegisterpageComponent,
     // LandingpageComponent,
-    // WorkfolioComponent
+    // WorkfolioComponent,
+    // ContactUsComponent
   ],
   imports: [
     BrowserAnimationsModule,

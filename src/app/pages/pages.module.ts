@@ -22,6 +22,7 @@ import { ProfilepageComponent } from "./examples/profilepage/profilepage.compone
 import { RegisterpageComponent } from "./examples/registerpage/registerpage.component";
 import { LandingpageComponent } from "./examples/landingpage/landingpage.component";
 import { WorkfolioComponent } from "./workfolio/workfolio.component";
+import { ContactUsComponent } from "./examples/contact-us/contact-us.component";
 
 @NgModule({
   imports: [
@@ -47,14 +48,16 @@ import { WorkfolioComponent } from "./workfolio/workfolio.component";
     ProfilepageComponent,
     RegisterpageComponent,
     LandingpageComponent,
-    WorkfolioComponent
+    WorkfolioComponent,
+    ContactUsComponent
   ],
   exports: [
     IndexComponent,
     ProfilepageComponent,
     RegisterpageComponent,
     LandingpageComponent,
-    WorkfolioComponent
+    WorkfolioComponent,
+    ContactUsComponent
   ],
   providers: []
 })
