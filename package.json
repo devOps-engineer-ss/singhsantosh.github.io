@@ -1,11 +1,11 @@
 {
-  "name": "my-digital-workfolio-angular",
+  "name": "my-digital-singhsantosh.github.io-angular",
   "version": "1.2.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "description": "workfolio",
+    "description": "singhsantosh.github.io",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
