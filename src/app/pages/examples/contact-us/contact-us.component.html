@@ -97,6 +97,7 @@
 </nav>
 
 <div class="wrapper">
+  
   <div class="page-header">
     <div class="page-header-image"></div>
     <div class="content">
@@ -113,7 +114,7 @@
                   src="assets/img/square1-red.png"
                 />
 
-                <h4 class="card-title">Contact Us</h4>
+                <h4 class="card-title">Reach Out</h4>
               </div>
               <div class="card-body">
                 <form class="form">
@@ -154,24 +155,44 @@
                     />
                   </div>
 
+
+                  <div
+                    class="input-group"
+                    [ngClass]="{ 'input-group-focus': focus === true }"
+                  >
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">
+                        <i class="fa fa-user"> </i>
+                      </span>
+                    </div>
+                    <input
+                      class="form-control"
+                      placeholder="Phone Number"
+                      type="text"
+                      (focus)="focus = true"
+                      (blur)="focus = false"
+                    />
+                  </div>
+
                   <div
                     class="input-group"
                     [ngClass]="{ 'input-group-focus': focus2 === true }"
                   >
                     <div class="input-group-prepend">
                       <div class="input-group-text">
-                        <i class="tim-icons icon-lock-circle"> </i>
+                        <i class="tim-icons icon-single-02"> </i>
                       </div>
                     </div>
                     <input
                       class="form-control"
-                      placeholder="Password"
+                      placeholder="purpose"
                       type="text"
                       (focus)="focus2 = true"
                       (blur)="focus2 = false"
                     />
                   </div>
                   
+
                 </form>
               </div>
 
